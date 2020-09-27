@@ -1,8 +1,8 @@
-var estado = true,
-	resultado = "";
+let estado = true,
+    resultado = "";
 
-if(estado){
-	console.log("continuar")
+if (resultado) {
+    console.log("continuar")
 } else {
-	console.log("detenerse");
+    console.log("detenerse");
 }

@@ -1,19 +1,22 @@
-
 /**
  * [nombre description]
- * @type {String}
+ *
+ * @var {[type]}
  */
-var nombre = "yacafx",
-    email = "sergiobritor@gmail.com";
+let nombre = "yshungria-lab",
+    email = "yshungria@unal.edu.co";
 
-/**
-*	Función parar enviar saludos
-*	@param {string} nombre - Nombre de la persona a saludar 
-**/
-function saludar(nombre){
-	//Se retorna el mensaje formado
-    return "Hola "+ nombre;
+console.log(`Hola mi  GitHub es: ${nombre} y mi correo es: ${email} `)
+    /**
+     *	Función parar enviar saludos
+     *	@param {string} nombre - Nombre de la persona a saludar 
+     **/
+function saludar(nombre) {
+    //Se retorna el mensaje formado
+    return (` Hola ${nombre}`);
 }
+
+console.log(saludar('yojan'));
 
 /*
 	Comentario de bloque
@@ -31,8 +34,28 @@ function saludar(nombre){
  * @param  {[type]}
  * @return {[type]}
  */
-function calcular(datoA, datoB, datoC){
-    var resultado = datoA + datoB;
+
+/**
+ * [calcular description]
+ *
+ * @param   {[type]}  datoA  [datoA description]
+ * @param   {[type]}  datoB  [datoB description]
+ * @param   {[type]}  datoC  [datoC description]
+ *
+ * @return  {[type]}         [return description]
+ */
+/**
+ * @param  {} datoA
+ * @param  {} datoB
+ * @param  {} datoC
+ * @param  {} {letresultado=datoA+datoB+datoC;returnresultado;}console.log(calcular(1
+ * @param  {} 2
+ * @param  {} 3
+ */
+
+function calcular(datoA, datoB, datoC) {
+    let resultado = datoA + datoB + datoC;
     return resultado;
 }
 
+console.log(calcular(1, 2, 3));

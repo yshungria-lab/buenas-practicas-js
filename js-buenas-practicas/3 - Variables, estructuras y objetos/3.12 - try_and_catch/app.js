@@ -1,13 +1,13 @@
-var animales = ["perro", "gato", "pez"];
+"use strict"
 
-var totalAnimales = animales.length;
+let animales = ["perro", "gato", "pez "],
+    totalAnimales = animales.length;
 
 try {
-     //Acciones a realizar por la excepción
-    for (var i = 0; i < totalAnimales; i++) {
-
-
+    //Acciones a realizar por la excepción
+    for (let i = 0; i <= totalAnimales; i++) {
+        console.log([i]);
     }
 } catch (e) {
-    //Manejo de errores 
-}
+    console.log("Esto es un error");
+};

@@ -1,9 +1,9 @@
-function Persona(nombre, apellidos){
-	this.nombre = nombre;
-	this.apellidos = apellidos;
+function Persona(nombre, apellidos) {
+    this.nombre = nombre;
+    this.apellidos = apellidos;
 }
 
-var persona = new Persona("Sergio", "Brito");
+let persona = new Persona("Sergio", "Brito");
 
 console.log(persona);
 console.log(persona.nombre);

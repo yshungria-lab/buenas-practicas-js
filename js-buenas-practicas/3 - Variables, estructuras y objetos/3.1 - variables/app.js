@@ -1,3 +1,7 @@
-var mensaje = "¡Hola Mundo!", 
-    estado = "activo",
-    resultado = 45;
+var texto = "¡Hola Mundo!",
+    caracteristica = "activo",
+    consolidado = 45;
+
+let mensaje = "!Hola mundo!",
+    estado = "desactivado",
+    resultado = 20;

@@ -1,11 +1,13 @@
-var persona = {};
+let persona = {};
 persona.nombre = "Sergio";
 
-var otraPersona = new Object();
+let otraPersona = new Object();
 
 
-var lista = new Array();
+let lista = new Array();
 lista[0] = "manzana";
 lista[1] = "pera";
 
-var listaNueva = ["manzana", "pera"];
+let listaNueva = ["manzana", "pera"];
+
+console.log(lista);

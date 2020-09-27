@@ -1,4 +1,4 @@
-var estado = true;
+let estado = false;
 
 // if(estado){
 //  console.log("continuar")
@@ -7,6 +7,6 @@ var estado = true;
 // }
 
 
-var accion = estado ? 'continuar' : 'detenerse';
+let accion = estado ? 'continuar' : 'detenerse';
 
 console.log(accion);

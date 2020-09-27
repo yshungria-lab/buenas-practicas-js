@@ -1,3 +1,3 @@
-var LIMITE = 30;
+const LIMITE = 30;
 
-var LIMITE_TOTAL = 30;
+const LIMITE_TOTAL = 30;
