@@ -1,11 +1,18 @@
-var animales = ["perro", "gato", "pez"];
+console.time('revisión');
 
-var listaAnimales = animales.join(", ");
+let animales = ["perro", "gato", "pez"];
 
-var nuevaLista = animales.concat(",");
+let listaAnimales = animales.join(", ");
+
+let nuevaLista = animales.concat(",");
+
+console.log(animales);
+console.log(typeof animales);
 
 console.log(listaAnimales);
 console.log(typeof listaAnimales);
 
 console.log(nuevaLista);
 console.log(typeof nuevaLista);
+
+console.timeEnd('revisión');

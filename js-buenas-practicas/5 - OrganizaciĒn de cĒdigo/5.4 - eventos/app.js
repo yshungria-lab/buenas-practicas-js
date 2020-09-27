@@ -1,5 +1,5 @@
-var btnSaludar = document.getElementById("btnSaludar");
+let btnSaludar = document.getElementById("btnSaludar");
 
-btnSaludar.addEventListener('click', function(){
-	console.log("¡Hola Mundo!");
+btnSaludar.addEventListener('click', function() {
+    console.log("¡Hola Mundo!");
 })
